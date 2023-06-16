@@ -1,17 +1,19 @@
-
-
-
 .leaflet-container {
-    width: 100%;
+    margin-top: 100px;
+    width: 50%;
     height: 100vh;
+    /* z-index: ; */
 }
-.basicmap{
+
+.basicmap {
     display: flex;
     /* flex-direction: column; */
 }
-.detail{
-    flex:0.5
+
+.detail {
+    flex: 0.5
 }
-.App{
-    flex:0.5
+
+.App {
+    flex: 0.5
 }

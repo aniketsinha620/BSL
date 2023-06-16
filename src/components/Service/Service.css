@@ -1,0 +1,385 @@
+body {
+    background-color: #F3F3F3;
+}
+
+
+.service {
+    /* background-color: aqua; */
+    padding: 80px;
+
+}
+
+
+.service-top {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+
+}
+
+.illustrator-service {
+    flex: 0.5;
+    /* width: 989px; */
+    width: 40%;
+    /* height: 695px; */
+    background: #F3F3F3;
+    /* background-color: black; */
+    box-shadow: -20px -20px 50px #FFFFFF, 20px 20px 50px #D2D2D2;
+    border-radius: 43px;
+
+
+}
+
+.illustrator-service img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 43px;
+    box-shadow: -20px -20px 50px #FFFFFF, 20px 20px 50px #D2D2D2;
+}
+
+.form-service {
+    flex: 0.3;
+    margin-right: 100px;
+    /* background-color: rgb(177, 23, 23); */
+    line-height: 100%;
+    gap: 20px;
+    /* background-color: blue; */
+    padding: 20px;
+
+
+}
+
+.form-service label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700px;
+    list-style: 54.85px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.form-service input,
+.form-service button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 58px;
+    border: none;
+    background-color: #F3F3F3;
+    box-shadow: inset -10px -10px 20px #FFFFFF, inset 10px 10px 20px rgba(0, 0, 0, 0.09);
+    border-radius: 15px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 157.4%;
+    font-family: 'Montserrat';
+    color: #12B7B6;
+
+}
+
+.form-service input::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 19px;
+    line-height: 157.4%;
+    letter-spacing: 0.005em;
+    align-content: center;
+    color: #12B7B6;
+
+}
+
+.form-service button {
+
+    color: #12B7B6;
+    height: 68px;
+    font-weight: 400;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+
+}
+
+.form-service button:hover {
+    box-shadow: inset -10px -10px 20px #FFFFFF, inset 10px 10px 20px rgba(0, 0, 0, 0.09);
+}
+
+.bus-card {
+    margin-top: 90px;
+}
+
+.bus-card h1 {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 141.9%;
+
+
+    letter-spacing: 0.06em;
+
+    color: #1F1F1F;
+}
+
+
+
+
+
+
+
+
+/* css of Card.jsx */
+
+.cardCollection-service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-service {
+    width: 446px;
+    height: 595px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #F3F3F3;
+    box-shadow: -20px -20px 50px #FFFFFF, 20px 20px 50px #D2D2D2;
+    border-radius: 43px;
+}
+
+.photo-service {
+    flex: 0.5;
+    width: 445px;
+    height: 349px;
+}
+
+.photo-service img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: -20px -20px 50px #FFFFFF, 20px 20px 50px #D2D2D2;
+
+    background: #F3F3F3;
+
+}
+
+.detail-service {
+    flex: 0.5;
+}
+
+.detail-service h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 131.9%;
+    display: flex;
+    justify-content: center;
+    color: #1F1F1F;
+}
+
+.detail-service p {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 164.9%; */
+    text-align: center;
+    /* letter-spacing: -0.04em; */
+    color: #434343;
+}
+
+
+
+/* css of Card_bus.jsx */
+
+.Card_bus-service {
+    margin-top: 90px;
+
+}
+
+.heading-service {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 141.9%;
+
+    margin-bottom: 40px;
+    letter-spacing: 0.06em;
+
+    color: #1F1F1F;
+}
+
+
+
+.Card_bus {
+    width: 678.35px;
+    height: 200px;
+    background-color: #12B7B6;
+    background: #F3F3F3;
+    box-shadow: -27.7487px -27.7487px 69.3717px #FFFFFF, 27.7487px 27.7487px 69.3717px #D2D2D2;
+    border-radius: 59.6597px;
+    padding: 15px;
+    margin-bottom: 80px;
+
+}
+
+.wrap-service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.busName {
+
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+.busName h2 {
+
+
+    margin-left: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 25px;
+
+    color: #3E548D;
+
+
+}
+
+.busName .time {
+    margin-right: 50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24.9738px;
+    line-height: 37px;
+    color: #3E548D;
+}
+
+.card_bus_detail {
+    margin-top: 15px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(71, 221, 65); */
+    align-items: center;
+    margin-left: 40px;
+}
+
+.source {
+
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.card_bus_detail .icon {
+
+    Width: 83.96px;
+    height: 45px;
+    background: #12B7B6;
+    border-radius: 13.8743px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_bus_detail .detail {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    color: #455A64;
+}
+
+.card_bus_detail .detail h1 {
+    margin: 0px;
+}
+
+.Card_bus_travel .source,
+.Card_bus_travel .destination {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.destination {
+
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #1F1F1F; */
+    /* height: 20px; */
+    /*  */
+}
+
+.card_bus_detail .detail h1 {
+    margin: 0px;
+
+}
+
+.card_bus_detail button {
+    margin-right: 40px;
+    Width: 237px;
+    height: 58.68px;
+    background: #12B7B6;
+    box-shadow: 0px 5.54974px 13.8743px rgba(0, 0, 0, 0.16);
+    border-radius: 13.8743px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.0366px;
+    line-height: 27px;
+
+    color: #F5F5F5;
+
+}
+
+
+
+
+/* booking css */
+
+
+.booking_heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 46px;
+    line-height: 141.9%;
+    letter-spacing: 0.06em;
+    color: #1F1F1F;
+
+}
+.booking{
+    width: 662px;
+    height:882px;
+    background-color: #12B7B6;
+}

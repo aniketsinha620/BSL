@@ -1,0 +1,11 @@
+.map-container {
+    display: flex;
+    background-color: black;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+}
+
+.search-box {
+    margin-right: 20px;
+}
